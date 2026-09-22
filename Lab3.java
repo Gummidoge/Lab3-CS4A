@@ -12,5 +12,10 @@ public class Lab3 {
 
 		// Output student first and last name
 		System.out.println("Hello " + firstName + " " + lastName + "!");
+
+		// Prompt and output an ID number with enthusiasm
+		System.out.print("\nWhat is your ID number? ");
+		int id = input.nextInt();
+		System.out.println("Your ID number is currently " + id + ". Wow! ");
 	}
 }
